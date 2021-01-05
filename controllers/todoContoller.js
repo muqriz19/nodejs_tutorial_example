@@ -5,7 +5,7 @@ let urlEncode = bodyParser.urlencoded({
     extended: false
 });
 
-mongoose.connect('mongodb+srv://test:test@cluster0.6te5s.mongodb.net/<test>?retryWrites=true&w=majority', {
+mongoose.connect('URL', {
     useUnifiedTopology: true,
     useNewUrlParser: true
 });
